@@ -473,14 +473,14 @@ body {
 ***/
 
 .today_deals_container {
-    margin: 30px;
+    margin: 15px;
     box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.1), 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .today_deals_heading {
     display: flex;
     align-items: center;
-    padding: 2px 20px;
+    padding: 2px 25px;
 }
 
 .today_deals_heading p a {
@@ -495,7 +495,7 @@ body {
 
 .today_deals_product_container {
     /* background-color: red; */
-    height: 300px;
+    height: 90px;
     position: relative;
 }
 
@@ -574,5 +574,3 @@ body {
     outline: none;
     background-color: rgb(255, 255, 255, 0.4);
 }
-
-

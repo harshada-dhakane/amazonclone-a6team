@@ -15,6 +15,82 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
 
+    <style>
+        footer {
+            background-color: #232F3E;
+            color: white;
+            padding: 30px 0;
+            font-family: Arial, sans-serif;
+        }
+        /* Main Footer Container */
+        
+        .footer-container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        /* Footer Columns */
+        
+        .footer-column {
+            flex: 1;
+            min-width: 200px;
+            margin: 10px;
+        }
+        
+        .footer-column h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        /* Footer Links */
+        
+        .footer-column ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-column ul li {
+            margin: 5px 0;
+        }
+        
+        .footer-column ul li a {
+            color: #ddd;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-column ul li a:hover {
+            color: white;
+        }
+        /* Bottom Footer Section */
+        
+        .footer-bottom {
+            text-align: center;
+            padding: 15px;
+            border-top: 1px solid #3a4553;
+            font-size: 14px;
+        }
+        /* Responsive Design */
+        
+        @media (max-width: 768px) {
+            .footer-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .footer-column {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+
+
+
+
+
+
+
 </head>
 
 <body>
@@ -79,23 +155,15 @@
                     </span>
                 </li>
                 <li class="border-white"><a href="#">Today's Deals</a></li>
-                <li class="border-white"><a href="#">Registry</a></li>
+                <li class="border-white"><a href="registry.html">Registry</a></li>
 
                 <li class="border-white"><a href="#">Customer Service</a></li>
-                <li class="border-white"><a href="#">Gift Cards</a></li>
+                <li class="border-white"><a href="giftcards.html">Gift Cards</a></li>
                 <li class="border-white"><a href="#">Sell</a></li>
 
-                <li class="border-white prime-image-hover">
-                    <a href="#">Prime</a>
-                    <div class="prime-image">
-                        <img src="https://m.media-amazon.com/images/G/31/prime/NavFlyout/TryPrime/2018/Apr/IN-Prime-PIN-TryPrime-MultiBen-Apr18-400x400._CB442254244_.jpg" />
-                    </div>
 
-                </li>
             </ul>
-            <div class="nav-right-image-amazon-prime">
-                <img src="https://m.media-amazon.com/images/G/31/img17/Home/AmazonTV/Ravina/Desktop/Watch-Entertainment-for-FREE_400-x39._CB605460886_.jpg" />
-            </div>
+
         </div>
     </nav>
 
@@ -443,7 +511,95 @@
             </div>
         </section>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
+
+
+
+
+    <footer>
+        <div class="footer-container" style="margin-top: auto;">
+            <!-- Column 1 -->
+            <div class="footer-column">
+                <h3>Get to Know Us</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="footer-column">
+                <h3>Connect with Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="footer-column">
+                <h3>Let Us Help You</h3>
+                <ul>
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">Returns Center</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 YourAmazonClone. All Rights Reserved.</p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </footer>
+
+
+
 
 
 
